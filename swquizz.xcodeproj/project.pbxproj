@@ -12,6 +12,8 @@
 		07CD20C4222EFF05005E7BAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CD20C2222EFF05005E7BAA /* Main.storyboard */; };
 		07CD20C6222EFF06005E7BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CD20C5222EFF06005E7BAA /* Assets.xcassets */; };
 		07CD20C9222EFF06005E7BAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CD20C7222EFF06005E7BAA /* LaunchScreen.storyboard */; };
+		07CD20D2222F053D005E7BAA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD20D1222F053D005E7BAA /* Question.swift */; };
+		07CD20D4222F0800005E7BAA /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CD20D3222F0800005E7BAA /* Answer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		07CD20C5222EFF06005E7BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07CD20C8222EFF06005E7BAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07CD20CA222EFF06005E7BAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CD20D1222F053D005E7BAA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		07CD20D3222F0800005E7BAA /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		07CD20BD222EFF05005E7BAA /* swquizz */ = {
 			isa = PBXGroup;
 			children = (
+				07CD20D0222F04F9005E7BAA /* classes */,
 				07CD20BE222EFF05005E7BAA /* AppDelegate.swift */,
 				07CD20C0222EFF05005E7BAA /* ViewController.swift */,
 				07CD20C2222EFF05005E7BAA /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				07CD20CA222EFF06005E7BAA /* Info.plist */,
 			);
 			path = swquizz;
+			sourceTree = "<group>";
+		};
+		07CD20D0222F04F9005E7BAA /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				07CD20D1222F053D005E7BAA /* Question.swift */,
+				07CD20D3222F0800005E7BAA /* Answer.swift */,
+			);
+			path = classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07CD20D2222F053D005E7BAA /* Question.swift in Sources */,
 				07CD20C1222EFF05005E7BAA /* ViewController.swift in Sources */,
 				07CD20BF222EFF05005E7BAA /* AppDelegate.swift in Sources */,
+				07CD20D4222F0800005E7BAA /* Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
